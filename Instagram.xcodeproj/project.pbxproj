@@ -12,6 +12,11 @@
 		0C12ED7E1FF6317A00A50887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12ED7C1FF6317A00A50887 /* Main.storyboard */; };
 		0C12ED801FF6317A00A50887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C12ED7F1FF6317A00A50887 /* Assets.xcassets */; };
 		0C12ED831FF6317A00A50887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12ED811FF6317A00A50887 /* LaunchScreen.storyboard */; };
+		0C12ED8F1FF6382100A50887 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12ED8E1FF6382100A50887 /* LoginViewController.swift */; };
+		0C12ED911FF63C6F00A50887 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12ED901FF63C6F00A50887 /* HomeViewController.swift */; };
+		0C12ED931FF6457900A50887 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12ED921FF6457900A50887 /* ImageSelectViewController.swift */; };
+		0C12ED951FF64A7000A50887 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12ED941FF64A7000A50887 /* PostViewController.swift */; };
+		0C12ED971FF64AB700A50887 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12ED961FF64AB700A50887 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0C12ED7F1FF6317A00A50887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C12ED821FF6317A00A50887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C12ED841FF6317A00A50887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C12ED8E1FF6382100A50887 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0C12ED901FF63C6F00A50887 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0C12ED921FF6457900A50887 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		0C12ED941FF64A7000A50887 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0C12ED961FF64AB700A50887 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				0C12ED781FF6317A00A50887 /* AppDelegate.swift */,
 				0C12ED7A1FF6317A00A50887 /* ViewController.swift */,
 				0C12ED7C1FF6317A00A50887 /* Main.storyboard */,
+				0C12ED961FF64AB700A50887 /* SettingViewController.swift */,
+				0C12ED941FF64A7000A50887 /* PostViewController.swift */,
+				0C12ED921FF6457900A50887 /* ImageSelectViewController.swift */,
+				0C12ED901FF63C6F00A50887 /* HomeViewController.swift */,
+				0C12ED8E1FF6382100A50887 /* LoginViewController.swift */,
 				0C12ED7F1FF6317A00A50887 /* Assets.xcassets */,
 				0C12ED811FF6317A00A50887 /* LaunchScreen.storyboard */,
 				0C12ED841FF6317A00A50887 /* Info.plist */,
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C12ED951FF64A7000A50887 /* PostViewController.swift in Sources */,
+				0C12ED8F1FF6382100A50887 /* LoginViewController.swift in Sources */,
 				0C12ED7B1FF6317A00A50887 /* ViewController.swift in Sources */,
 				0C12ED791FF6317A00A50887 /* AppDelegate.swift in Sources */,
+				0C12ED931FF6457900A50887 /* ImageSelectViewController.swift in Sources */,
+				0C12ED971FF64AB700A50887 /* SettingViewController.swift in Sources */,
+				0C12ED911FF63C6F00A50887 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
